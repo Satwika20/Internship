@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    color: blue;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.container {
+    background-image: url('https://images.unsplash.com/photo-1710104434504-0261d06fa832?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 25vh;
+}
+
+.intro-heading {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.intro-paragraph {
+    font-size: 17px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.package-heading {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    text-align: center;
+    padding-top: 32px;
+
+}
+
+.package-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.package-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.holidayImage1 {
+    height: 25vh;
+    background-size: cover;
+    border-radius: 6px;
+    width: 30vw;
+}
+
+.package-paragraph {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    margin: 2px;
+    width: 28vw;
+    border-radius: 3px;
+}
+
+.paragraph {
+    margin: 1px;
+    padding: 2px;
+}
+
+.flight-heading {
+    text-align: center;
+    font-family: "Bree serif";
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.form-group {
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 10px;
+    margin: 6px;
+}
+
+#flights {
+    padding-left: 20px;
+}
+
+.input-text {
+    width: 35vw;
+    padding-left: 2px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.hotel-booking {
+    text-align: center;
+    font-family: "Bree serif";
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.hotels {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelImage1 {
+    height: 48vh;
+    background-size: cover;
+    border-radius: 6px;
+    width: 30vw;
+}
+
+.collections-paragraph {
+    text-align: center;
+}
+
+.collections-data1 {
+    background-image: url('https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQWz3mfrE0TpNrF-Y6aeZ6cPkBAvkAVIuE-VOB4ZXZw2z2My5J6PUnSv7VN6tHwTkXT');
+    background-size: cover;
+}
+
+.collections-data2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.collections-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph-world {
+    font-family: "Georgia";
+    font-size: 12px;
+    text-align: center;
+}
+
+/*

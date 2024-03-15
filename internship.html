@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <p class="main-heading">Gogaga</p>
+        <a class="navbar-brand" href="#packages">Packages</a>
+        <a class="navbar-brand" href="#flights">Flights</a>
+        <a class="navbar-brand" href="#hotels">Hotels</a>
+        <a class="navbar-brand" href="#collections">Collections</a>
+        <a class="navbar-brand" href="#">Login</a>
+    </nav>
+    <div class="container">
+        <div class="introduction">
+            <h1 class="intro-heading">Explore the World with Gogaga Holidays</h1>
+            <p class="intro-paragraph">Unforgettable experiences await. Book your dream vacation today!</p>
+        </div>
+        <div id="packages">
+            <h2 class="package-heading">Premium Holiday Packages</h2>
+            <div class="package-container">
+                <div class="package-inner-container">
+                    <img src="https://tourscanner.com/blog/wp-content/uploads/2023/05/best-holiday-destinations.jpg" class="holidayImage1" />
+                    <p class="package-paragraph">BALI</p>
+                    <p class="paragraph">3 Nights/4 days</p>
+                    <p class="paragraph">Rs.20,000</p>
+                </div>
+                <div class="package-inner-container">
+                    <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcR-Nbu9wv3UudluGjs3pegVs46lOqI2HypmBuqYA-uwoNrijCxMN-neFaEgwqlrbr4Y" class="holidayImage1" />
+                    <p class="package-paragraph">Varanasi</p>
+                    <p class="paragraph">4 Nights/5 days</p>
+                    <p class="paragraph">Rs.31,417</p>
+                </div>
+                <div class="package-inner-container">
+                    <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSPIWnPfRvDd3-gpNCF6rKOj68Vgg67kC4bsIpFQbD61_kTON9FdFDknZ-3I6VI-arm" class="holidayImage1" />
+                    <p class="package-paragraph">Jaipur</p>
+                    <p class="paragraph">6 Nights/7 days</p>
+                    <p class="paragraph">Rs.27,100</p>
+                </div>
+            </div>
+        </div>
+        <div id="flights">
+            <h1 class="flight-heading">Flight Booking</h1>
+            <form action="#">
+                <div class="form">
+                    <div class="form-group">
+                        <label for="origin">Origin:</label>
+                        <input class="input-text" type="text" id="origin" name="origin" placeholder="Enter your origin city">
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <input class="input-text" type="text" id="destination" name="destination" placeholder="Enter your destination city">
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form-group">
+                        <label for="departure-date">Departure Date:</label>
+                        <input class="input-text" type="date" id="departure-date" name="departure-date">
+                    </div>
+                    <div class="form-group">
+                        <label for="return-date">Return Date:</label>
+                        <input class="input-text" type="date" id="return-date" name="return-date">
+                    </div>
+                </div>
+                <div class="form-button">
+                    <button class="form-button" type="submit">Search Flights</button>
+                </div>
+            </form>
+        </div>
+        <div id="hotels">
+            <h1 class="hotel-booking">Hotel Booking</h1>
+            <div class="hotels">
+                <div class="hotel-photo">
+                    <img src="https://solangvalleyresorts.com/wp-content/uploads/2019/12/places2-1.jpg" class="hotelImage1" />
+                </div>
+                <div class="form-hotel">
+                    <form action="#">
+                        <div class="form-group">
+                            <label class="input-text" for="hotel-destination">Destination:</label>
+                            <input type="text" id="hotel-destination" name="hotel-destination" placeholder="Enter your destination city">
+                        </div>
+                        <div class="form-group">
+                            <label for="check-in">Check-in Date:</label>
+                            <input type="date" id="check-in" name="check-in">
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out">Check-out Date:</label>
+                            <input type="date" id="check-out" name="check-out">
+                        </div>
+                        <div class="form-button">
+                            <button type="submit">Search Hotels</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="collections">
+            <h1 class="package-heading">Our Travel package collections</h1>
+            <p class="collections-paragraph">Get ready for your next trip across the world</p>
+            <div class="package-container">
+                <div class="package-inner-container">
+                    <img src="https://w0.peakpx.com/wallpaper/210/105/HD-wallpaper-fireworks-australia-sydney-opera-house-sydney-harbour-bridge.jpg" class="holidayImage1" />
+                    <p class="package-paragraph">New York City</p>
+                    <p class="paragraph-world">Celebrate christmas in NYC</p>
+                </div>
+                <div class="package-inner-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/ChristmasEve1878.jpg" class="holidayImage1" />
+                    <p class="package-paragraph">Switzerland</p>
+                    <p class="paragraph-world">Get into the beautiful place and the beautiful day..</p>
+                </div>
+                <div class="package-inner-container">
+                    <img src="https://www.kayak.co.uk/news/wp-content/uploads/sites/5/2022/01/dest_thailand_chiang-mai_yi_peng-festival_gettyimages-687006760_universal_within-usage-period_26382.jpg" class="holidayImage1" />
+                    <p class="package-paragraph">North Thailand</p>
+                    <p class="paragraph-world">Lite up the skies by participating in Yi peng Festival</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
